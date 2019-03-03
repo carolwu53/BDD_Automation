@@ -7,13 +7,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import com.cucumberFramework.enums.Browsers;
 import com.cucumberFramework.enums.OS;
 
-/**
- * 
- * @author Bhanu Pratap Singh
- * https://www.udemy.com/seleniumbybhanu/
- * https://www.youtube.com/user/MrBhanupratap29/playlists
- *
- */
 public class TestBase {
 
 	public  static WebDriver driver;

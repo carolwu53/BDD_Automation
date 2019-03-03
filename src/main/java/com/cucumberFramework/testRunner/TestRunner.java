@@ -9,15 +9,12 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.testng.CucumberFeatureWrapper;
 import cucumber.api.testng.TestNGCucumberRunner;
 
-/**
- * 
- * @author Bhanu Pratap Singh
- * https://www.udemy.com/seleniumbybhanu/
- * https://www.youtube.com/user/MrBhanupratap29/playlists
- *
- */
-@CucumberOptions(features = "src/test/resources/features", glue = { "com/cucumberFramework/stepdefinitions" }, plugin = { "pretty", "html:target/cucumber-reports/cucumber-pretty",
-		"json:target/cucumber-reports/CucumberTestReport.json", "rerun:target/cucumber-reports/rerun.txt" })
+@CucumberOptions(features = "src/test/resources/features", 
+                 glue = { "com/cucumberFramework/stepdefinitions" }, 
+                 plugin = { "pretty", "html:target/cucumber-reports/cucumber-pretty",
+		                    "json:target/cucumber-reports/CucumberTestReport.json", "rerun:target/cucumber-reports/rerun.txt"},
+		         monochrome = true           
+		        )
 public class TestRunner {
 	
 	private TestNGCucumberRunner testNGCucumberRunner;

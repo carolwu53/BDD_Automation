@@ -1,0 +1,23 @@
+2019-03-02 21:03:324 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-02 21:03:473 INFO  WaitHelper:24 - element is visible..
+2019-03-02 21:03:989 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-02 21:03:141 INFO  WaitHelper:24 - element is visible..
+2019-03-02 21:03:430 INFO  ServiceHooks:42 - Sign In with valid credential is pass
+2019-03-02 21:03:996 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-02 21:03:145 INFO  WaitHelper:24 - element is visible..
+2019-03-02 21:03:593 INFO  ServiceHooks:42 - Sign In with invalid credential is pass
+2019-03-02 21:03:707 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-02 21:03:814 INFO  WaitHelper:24 - element is visible..
+2019-03-02 21:03:353 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-02 21:03:633 INFO  WaitHelper:24 - element is visible..
+2019-03-02 21:03:982 INFO  ServiceHooks:42 - Sign In with valid credentials is pass
+2019-03-02 21:03:590 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-02 21:03:715 INFO  WaitHelper:24 - element is visible..
+2019-03-02 21:03:350 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-02 21:03:744 INFO  WaitHelper:24 - element is visible..
+2019-03-02 21:03:218 INFO  ServiceHooks:42 - Sign In with valid credentials is pass
+2019-03-02 21:03:520 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-02 21:03:679 INFO  WaitHelper:24 - element is visible..
+2019-03-02 21:03:544 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-02 21:03:817 INFO  WaitHelper:24 - element is visible..
+2019-03-02 21:03:280 INFO  ServiceHooks:42 - Sign In with valid credentials is pass

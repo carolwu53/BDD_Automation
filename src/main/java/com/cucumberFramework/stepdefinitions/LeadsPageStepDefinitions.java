@@ -13,13 +13,6 @@ import com.cucumberFramework.verification.beans.LeadsData;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-/**
- * 
- * @author Bhanu Pratap Singh
- * https://www.udemy.com/seleniumbybhanu/
- * https://www.youtube.com/user/MrBhanupratap29/playlists
- *
- */
 public class LeadsPageStepDefinitions extends TestBase {
 
 	LeadsCreationPage leadsPage = new LeadsCreationPage(driver);

@@ -7,7 +7,7 @@ Feature: Leads Creation
     When I enter username as "admin"
     And I enter password as "password"
     And click on login button
-    Then I sould see application homepage
+    Then I should see application homepage
 
   @sanity @regression
   Scenario: Create Leads

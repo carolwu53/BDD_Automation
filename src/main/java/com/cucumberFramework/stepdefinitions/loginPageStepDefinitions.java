@@ -1,5 +1,7 @@
 package com.cucumberFramework.stepdefinitions;
 
+import org.testng.Assert;
+
 import com.cucumberFramework.helper.WaitHelper;
 import com.cucumberFramework.pageObjects.LoginPage;
 import com.cucumberFramework.testBase.TestBase;
@@ -7,13 +9,6 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-/**
- * 
- * @author Bhanu Pratap Singh
- * https://www.udemy.com/seleniumbybhanu/
- * https://www.youtube.com/user/MrBhanupratap29/playlists
- *
- */
 public class loginPageStepDefinitions extends TestBase {
 
 	LoginPage loginPage = new LoginPage(driver);
@@ -45,5 +40,11 @@ public class loginPageStepDefinitions extends TestBase {
 	@When("^click on login button$")
 	public void click_on_login_button() throws Throwable {
 		loginPage.clickLoginButton();
+	}
+	
+	@Then("^I should get a red warning message$")
+	public void i_should_get_a_red_warning_message() throws Throwable {
+		String actual = loginPage.invalidWarning();
+	   Assert.assertEquals(actual, "You must specify a valid username and password.");
 	}
 }

@@ -20,6 +20,9 @@ public class LoginPage {
 	@FindBy(xpath="//*[@id='submitButton']")
 	WebElement loginButton;
 	
+	@FindBy(xpath="//div[@class='errorMessage']")
+	public WebElement errMessage;
+	
 	WaitHelper waitHelper;
 	
 	public LoginPage(WebDriver driver){
@@ -39,6 +42,10 @@ public class LoginPage {
 	
 	public void clickLoginButton(){
 		loginButton.click();
+	}
+	
+	public String invalidWarning(){
+		return errMessage.getText();
 	}
 
 }
