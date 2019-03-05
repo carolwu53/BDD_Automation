@@ -1,11 +1,13 @@
 package com.cucumberFramework.pageObjects;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.cucumberFramework.helper.Constants;
+import com.cucumberFramework.helper.LoggerHelper;
 import com.cucumberFramework.helper.WaitHelper;
 
 public class HomePage {
@@ -14,6 +16,7 @@ public class HomePage {
 
 	WaitHelper waitHelper;
 
+	private static Logger log = LoggerHelper.getLogger(LeadsCreationPage.class);
 
 	@FindBy(xpath = "//span[contains(text(),' Administrator')]")
 	public WebElement administrator;
@@ -32,6 +35,9 @@ public class HomePage {
 
 	@FindBy(xpath = "//img[@alt='Create Lead...']")
 	WebElement leadsButton;
+	
+	@FindBy(xpath = "//img[@title='Create Lead...']")
+	public WebElement createLeadsButton;
 
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
@@ -39,8 +45,15 @@ public class HomePage {
 		waitHelper = new WaitHelper(driver);
 	}
 
-	public LeadsCreationPage navigateToLeads() {
+	public Leads_Search_Edit_Delete_Page navigateToLeads() {
 		leadsLink.click();
+		return new Leads_Search_Edit_Delete_Page(driver);
+	}
+	
+	public LeadsCreationPage clickOnCreateLeads() {
+		waitHelper.WaitForElement(createLeadsButton, Constants.getExplicitwait());
+		log.info("clicking on create leads button");
+		createLeadsButton.click();
 		return new LeadsCreationPage(driver);
 	}
 

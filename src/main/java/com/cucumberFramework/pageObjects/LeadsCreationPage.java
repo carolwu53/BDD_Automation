@@ -11,22 +11,12 @@ import com.cucumberFramework.helper.Constants;
 import com.cucumberFramework.helper.LoggerHelper;
 import com.cucumberFramework.helper.WaitHelper;
 
-/**
- * 
- * @author Bhanu Pratap Singh
- * https://www.udemy.com/seleniumbybhanu/
- * https://www.youtube.com/user/MrBhanupratap29/playlists
- *
- */
 public class LeadsCreationPage {
 
 	WebDriver driver;
 	private WaitHelper waitHelper;
 
 	private static Logger log = LoggerHelper.getLogger(LeadsCreationPage.class);
-
-	@FindBy(xpath = "//img[@title='Create Lead...']")
-	public WebElement createLeadsButton;
 
 	@FindBy(xpath = "//select[@name='salutationtype']")
 	WebElement firstNameType;
@@ -105,12 +95,7 @@ public class LeadsCreationPage {
 		waitHelper = new WaitHelper(driver);
 	}
 
-	public void clickOnCreateLeads() {
-		waitHelper.WaitForElement(createLeadsButton, Constants.getExplicitwait());
-		log.info("clicking on create leads button");
-		createLeadsButton.click();
-	}
-
+	
 	public void selectFirstNameType(String type) {
 		log.info("selecting first Name type as: " + type);
 		waitHelper.WaitForElement(firstNameType, Constants.getExplicitwait());
@@ -252,7 +237,7 @@ public class LeadsCreationPage {
 	 */
 	public void createLeads(String type, String firstName, String lastName, String company, String designation, String leadSource, String industry, String annualrevenue, String noofemployees,
 			String street, String postalCode, String country, String description, String phone, String mobile, String email, String leadStatus, String assignTo) {
-		clickOnCreateLeads();
+		//clickOnCreateLeads();
 		selectFirstNameType(type);
 		enterFirstName(firstName);
 		enterLastName(lastName);

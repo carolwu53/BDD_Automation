@@ -7,7 +7,7 @@ public class LeadsData {
 	private static String companyName;
 	private static String streetAdress;
 	private static String email;
-	
+		
 	public static String getFirstName() {
 		return firstName;
 	}

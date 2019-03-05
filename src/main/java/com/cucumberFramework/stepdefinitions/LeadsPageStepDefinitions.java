@@ -21,11 +21,6 @@ public class LeadsPageStepDefinitions extends TestBase {
 	
 	Logger log = LoggerHelper.getLogger(LeadsPageStepDefinitions.class);
 
-	@When("^I click on leads plus button$")
-	public void i_click_on_leads_plus_button() throws Throwable {
-		leadsPage.clickOnCreateLeads();
-	}
-
 	@When("^I select First Name title as \"([^\"]*)\"$")
 	public void i_select_First_Name_title_as(String arg1) throws Throwable {
 		
@@ -160,5 +155,6 @@ public class LeadsPageStepDefinitions extends TestBase {
 		Assert.assertTrue(leadsVerificationPage.getStreetAddress().getText().contains(LeadsData.getStreetAdress()));
 		Assert.assertTrue(leadsVerificationPage.getEmail().getText().contains(LeadsData.getEmail()));
 	}
-
+	
+	
 }

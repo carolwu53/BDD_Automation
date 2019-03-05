@@ -2,6 +2,7 @@ package com.cucumberFramework.stepdefinitions;
 
 import com.cucumberFramework.helper.WaitHelper;
 import com.cucumberFramework.pageObjects.HomePage;
+import com.cucumberFramework.pageObjects.LeadsCreationPage;
 import com.cucumberFramework.testBase.TestBase;
 
 import cucumber.api.java.en.Given;
@@ -40,6 +41,10 @@ public class HomePageStepDefinitions extends TestBase{
 		homePage.navigateToLeads();
 	}
 
+	@When("^I click on leads plus button$")
+	public void i_click_on_leads_plus_button() throws Throwable {
+		homePage.clickOnCreateLeads();
+	}
 
 
 }

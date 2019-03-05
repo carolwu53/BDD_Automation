@@ -42,6 +42,4 @@ Feature: Leads Creation
       | title | firstName       | lastName       | companyName  | annualRevenue | Country |
       | Mr.   | auto_firstName1 | auto_lastName1 | companyName1 |          1000 | US      |
       | Mr.   | auto_firstName2 | auto_lastName2 | companyName2 |          2000 | US      |
-      | Mr.   | auto_firstName3 | auto_lastName3 | companyName3 |          3000 | US      |
-      | Mr.   | auto_firstName3 | auto_lastName3 | companyName3 |          3000 | US      |
-      | Mr.   | auto_firstName3 | auto_lastName3 | companyName3 |           200 | US      |
+     

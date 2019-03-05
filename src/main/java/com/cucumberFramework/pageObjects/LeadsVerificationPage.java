@@ -10,13 +10,6 @@ import com.cucumberFramework.helper.Constants;
 import com.cucumberFramework.helper.LoggerHelper;
 import com.cucumberFramework.helper.WaitHelper;
 
-/**
- * 
- * @author Bhanu Pratap Singh
- * https://www.udemy.com/seleniumbybhanu/
- * https://www.youtube.com/user/MrBhanupratap29/playlists
- *
- */
 public class LeadsVerificationPage {
 
 	WebDriver driver;
