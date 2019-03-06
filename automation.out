@@ -1,10 +1,9 @@
-2019-03-05 15:03:745 INFO  WaitHelper:21 - waiting for element visibilityOf..
-2019-03-05 15:03:884 INFO  WaitHelper:24 - element is visible..
-2019-03-05 15:03:241 INFO  WaitHelper:21 - waiting for element visibilityOf..
-2019-03-05 15:03:616 INFO  WaitHelper:24 - element is visible..
-2019-03-05 15:03:148 INFO  LeadsCreationPage:213 - clicking on save button
-2019-03-05 15:03:655 INFO  WaitHelper:21 - waiting for element visibilityOf..
-2019-03-05 15:03:742 INFO  WaitHelper:24 - element is visible..
-2019-03-05 15:03:804 INFO  WaitHelper:21 - waiting for element visibilityOf..
-2019-03-05 15:03:868 INFO  WaitHelper:24 - element is visible..
-2019-03-05 15:03:927 INFO  ServiceHooks:42 - Edit Leads is pass
+2019-03-06 10:03:813 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-06 10:03:913 INFO  WaitHelper:24 - element is visible..
+2019-03-06 10:03:610 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-06 10:03:34 INFO  WaitHelper:24 - element is visible..
+2019-03-06 10:03:515 INFO  AlertHelper:16 - AlertHelper object is craeted..
+2019-03-06 10:03:517 INFO  AlertHelper:16 - AlertHelper object is craeted..
+2019-03-06 10:03:665 INFO  AlertHelper:20 - alert test: Are You Sure You want to Delete?
+2019-03-06 10:03:680 INFO  AlertHelper:31 - dismiss Alert is done...
+2019-03-06 10:03:682 INFO  ServiceHooks:42 - Delete Leads is pass

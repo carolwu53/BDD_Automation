@@ -1,10 +1,7 @@
 package com.cucumberFramework.stepdefinitions;
 
-import org.apache.log4j.Logger;
 import org.testng.Assert;
 
-import com.cucumberFramework.helper.LoggerHelper;
-import com.cucumberFramework.helper.WaitHelper;
 import com.cucumberFramework.pageObjects.Leads_Search_Edit_Delete_Page;
 import com.cucumberFramework.testBase.TestBase;
 import com.cucumberFramework.verification.beans.LeadsData;
@@ -14,8 +11,9 @@ import cucumber.api.java.en.When;
 
 public class Leads_Search_Edit_Delete_StepDefinition extends TestBase {
 
-	WaitHelper waitHelper = new WaitHelper(driver);
-	Logger log = LoggerHelper.getLogger(Leads_Search_Edit_Delete_StepDefinition.class);
+	//WaitHelper waitHelper = new WaitHelper(driver);
+	//Logger log = LoggerHelper.getLogger(Leads_Search_Edit_Delete_StepDefinition.class);
+	//AlertHelper alertHelper = new AlertHelper(driver);
 
 	Leads_Search_Edit_Delete_Page leadsSearchEditDeleteObj = new Leads_Search_Edit_Delete_Page(driver);
 	
@@ -68,6 +66,23 @@ public class Leads_Search_Edit_Delete_StepDefinition extends TestBase {
 	public void i_should_verify_updated_leads_information() throws Throwable {
 		Assert.assertTrue(leadsSearchEditDeleteObj.getFirstName().getText().contains(LeadsData.getFirstName()));
 		Assert.assertTrue(leadsSearchEditDeleteObj.getLastName().getText().contains(LeadsData.getLastName()));
+		Assert.assertTrue(leadsSearchEditDeleteObj.getCompanyName().getText().contains(LeadsData.getCompanyName()));
 	}
+	
+	@When("^I click on Delete link in the Leads table$")
+	public void i_click_on_Delete_link_in_the_Leads_table() throws Throwable {
+		leadsSearchEditDeleteObj.clickDeleteLink();
+	}
+
+	@When("^I dismiss Alert popup window$")
+	public void i_dismiss_Alert_popup_window() throws Throwable {
+		leadsSearchEditDeleteObj.switchAlertDismiss();
+	}
+
+	@Then("^the row with \"([^\"]*)\" disappears\\.$")
+	public void the_row_with_disappears(String arg1) throws Throwable {
+	    
+	}
+
 
 }

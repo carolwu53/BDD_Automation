@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
+import com.cucumberFramework.helper.AlertHelper;
 import com.cucumberFramework.helper.Constants;
 import com.cucumberFramework.helper.LoggerHelper;
 import com.cucumberFramework.helper.WaitHelper;
@@ -15,6 +16,7 @@ import com.cucumberFramework.verification.beans.LeadsData;
 public class Leads_Search_Edit_Delete_Page {
 	WebDriver driver;
 	private WaitHelper waitHelper;
+	private AlertHelper alertHelper;
 
 	private static Logger log = LoggerHelper.getLogger(Leads_Search_Edit_Delete_Page.class);
 	
@@ -54,12 +56,16 @@ public class Leads_Search_Edit_Delete_Page {
 	@FindBy(xpath = "//*[@id='row_22']/td[5]/text()")
 	WebElement scompanyName;
 	
+	@FindBy(xpath="//*[@id='row_30']/td[10]/a[2]")
+	WebElement deleteLink30;
+			
 	Select select;
 
 	public Leads_Search_Edit_Delete_Page(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 		waitHelper = new WaitHelper(driver);
+		alertHelper = new AlertHelper(driver);
 	}
 	
 	public void enterSearchWords(String keywords){
@@ -117,6 +123,14 @@ public class Leads_Search_Edit_Delete_Page {
 	public WebElement getCompanyName() {
 		waitHelper.WaitForElement(scompanyName, Constants.getExplicitwait());
 		return scompanyName;
+	}
+	
+	public void clickDeleteLink(){
+		deleteLink30.click();
+	}
+	
+	public void switchAlertDismiss(){
+		alertHelper.dismissAlert();;
 	}
 	
 	

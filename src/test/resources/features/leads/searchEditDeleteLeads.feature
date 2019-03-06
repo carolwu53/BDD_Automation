@@ -16,7 +16,7 @@ Feature: Leads Search
     And I click Search Now button
     Then I only see row with "LEA21" displayed
 
-  @test
+  @sanity @regression
   Scenario: Edit Leads
     When I click on leads link
     And I click on Edit link in the Leads table
@@ -25,5 +25,12 @@ Feature: Leads Search
     And I modify Company name "abc"
     And I change Industry to "Entertainment"
     And I click on Save button
-   #Then I should see lead update success message
+    #Then I should see lead update success message
     And I should verify updated leads information
+
+  @test
+  Scenario: Delete Leads
+    When I click on leads link
+    And I click on Delete link in the Leads table
+    And I dismiss Alert popup window
+    #Then the row with "LEA30" disappears.
