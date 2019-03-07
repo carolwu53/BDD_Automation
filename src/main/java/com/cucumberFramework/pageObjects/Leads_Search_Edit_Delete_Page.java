@@ -53,7 +53,7 @@ public class Leads_Search_Edit_Delete_Page {
 	@FindBy(xpath = "//a[@title='Leads' and contains(text(), 'smith')]")
 	WebElement sLastName;
 	
-	@FindBy(xpath = "//*[@id='row_22']/td[5]/text()")
+	@FindBy(xpath = "//input[@id='22']//parent::td[1]//following-sibling::td[4]")
 	WebElement scompanyName;
 	
 	@FindBy(xpath="//*[@id='row_30']/td[10]/a[2]")

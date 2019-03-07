@@ -17,7 +17,7 @@ public class WaitHelper {
 		this.driver = driver;
 	}
 	
-	public void WaitForElement(WebElement element,long timeOutInSeconds){
+	public void WaitForElement(WebElement element, long timeOutInSeconds){
 		logger.info("waiting for element visibilityOf..");
 		WebDriverWait wait = new WebDriverWait(driver, timeOutInSeconds);
 		wait.until(ExpectedConditions.visibilityOf(element));

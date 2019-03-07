@@ -1,9 +1,161 @@
-2019-03-06 10:03:813 INFO  WaitHelper:21 - waiting for element visibilityOf..
-2019-03-06 10:03:913 INFO  WaitHelper:24 - element is visible..
-2019-03-06 10:03:610 INFO  WaitHelper:21 - waiting for element visibilityOf..
-2019-03-06 10:03:34 INFO  WaitHelper:24 - element is visible..
-2019-03-06 10:03:515 INFO  AlertHelper:16 - AlertHelper object is craeted..
-2019-03-06 10:03:517 INFO  AlertHelper:16 - AlertHelper object is craeted..
-2019-03-06 10:03:665 INFO  AlertHelper:20 - alert test: Are You Sure You want to Delete?
-2019-03-06 10:03:680 INFO  AlertHelper:31 - dismiss Alert is done...
-2019-03-06 10:03:682 INFO  ServiceHooks:42 - Delete Leads is pass
+2019-03-07 09:03:380 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 09:03:522 INFO  WaitHelper:24 - element is visible..
+2019-03-07 09:03:585 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 09:03:872 INFO  WaitHelper:24 - element is visible..
+2019-03-07 09:03:223 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 09:03:270 INFO  WaitHelper:24 - element is visible..
+2019-03-07 09:03:271 INFO  LeadsCreationPage:55 - clicking on create leads button
+2019-03-07 09:03:710 INFO  LeadsCreationPage:100 - selecting first Name type as: Mr.
+2019-03-07 09:03:712 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 09:03:794 INFO  WaitHelper:24 - element is visible..
+2019-03-07 09:03:138 INFO  LeadsCreationPage:107 - entering first name as : auto_firstName
+2019-03-07 09:03:660 INFO  LeadsCreationPage:112 - entering lastName as: auto_lastName
+2019-03-07 09:03:11 INFO  LeadsCreationPage:117 - entering company Name as: auto_company
+2019-03-07 09:03:307 INFO  LeadsCreationPage:122 - entering title as: auto_company
+2019-03-07 09:03:619 INFO  LeadsCreationPage:131 - selecting lead source as: Employee
+2019-03-07 09:03:913 INFO  LeadsCreationPage:137 - selecting industry as  : Banking
+2019-03-07 09:03:195 INFO  LeadsCreationPage:143 - entering annualrevenue as: 100
+2019-03-07 09:03:405 INFO  LeadsCreationPage:148 - entering noofemployees as : 2
+2019-03-07 09:03:600 INFO  LeadsCreationPage:153 - entering secondaryEmail as : info.test@gmail.com
+2019-03-07 09:03:125 INFO  LeadsCreationPage:158 - entering street as: 7535 Torrey Santa Fe Road
+2019-03-07 09:03:414 INFO  LeadsCreationPage:163 - entering postalCode as: 92129
+2019-03-07 09:03:674 INFO  LeadsCreationPage:168 - enter country as : US
+2019-03-07 09:03:871 INFO  LeadsCreationPage:173 - enter description as: auto_Description
+2019-03-07 09:03:104 INFO  LeadsCreationPage:178 - enter phone number as: 9999999999
+2019-03-07 09:03:422 INFO  LeadsCreationPage:183 - enter mobile number as: 9999999999
+2019-03-07 09:03:764 INFO  LeadsCreationPage:188 - enter fax as: Fax details
+2019-03-07 09:03:106 INFO  LeadsCreationPage:193 - enter email: info.test@gmail.com
+2019-03-07 09:03:127 INFO  LeadsCreationPage:198 - selecting leadStatus as: Attempted to Contact
+2019-03-07 09:03:606 INFO  LeadsCreationPage:213 - clicking on save button
+2019-03-07 09:03:982 INFO  LeadsPageStepDefinitions:142 - auto_firstName
+2019-03-07 09:03:984 INFO  LeadsPageStepDefinitions:143 - auto_lastName
+2019-03-07 09:03:985 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 09:03:68 INFO  WaitHelper:24 - element is visible..
+2019-03-07 09:03:131 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 09:03:172 INFO  WaitHelper:24 - element is visible..
+2019-03-07 09:03:228 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 09:03:304 INFO  WaitHelper:24 - element is visible..
+2019-03-07 09:03:680 INFO  ServiceHooks:42 - Create Leads is pass
+2019-03-07 09:03:57 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 09:03:164 INFO  WaitHelper:24 - element is visible..
+2019-03-07 09:03:296 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 09:03:435 INFO  WaitHelper:24 - element is visible..
+2019-03-07 09:03:252 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 09:03:349 INFO  WaitHelper:24 - element is visible..
+2019-03-07 09:03:350 INFO  LeadsCreationPage:55 - clicking on create leads button
+2019-03-07 09:03:837 INFO  LeadsCreationPage:100 - selecting first Name type as: Mr.
+2019-03-07 09:03:838 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 09:03:934 INFO  WaitHelper:24 - element is visible..
+2019-03-07 09:03:190 INFO  LeadsCreationPage:107 - entering first name as : auto_firstName1
+2019-03-07 09:03:602 INFO  LeadsCreationPage:112 - entering lastName as: auto_lastName1
+2019-03-07 09:03:80 INFO  LeadsCreationPage:117 - entering company Name as: companyName1
+2019-03-07 09:03:424 INFO  LeadsCreationPage:122 - entering title as: auto_company
+2019-03-07 09:03:742 INFO  LeadsCreationPage:131 - selecting lead source as: Employee
+2019-03-07 09:03:03 INFO  LeadsCreationPage:137 - selecting industry as  : Banking
+2019-03-07 09:03:261 INFO  LeadsCreationPage:143 - entering annualrevenue as: 1000
+2019-03-07 09:03:473 INFO  LeadsCreationPage:148 - entering noofemployees as : 2
+2019-03-07 09:03:618 INFO  LeadsCreationPage:153 - entering secondaryEmail as : info.test@gmail.com
+2019-03-07 09:03:166 INFO  LeadsCreationPage:158 - entering street as: 7535 Torrey Santa Fe Road
+2019-03-07 09:03:472 INFO  LeadsCreationPage:163 - entering postalCode as: 92129
+2019-03-07 09:03:723 INFO  LeadsCreationPage:168 - enter country as : US
+2019-03-07 09:03:927 INFO  LeadsCreationPage:173 - enter description as: auto_Description
+2019-03-07 09:03:211 INFO  LeadsCreationPage:178 - enter phone number as: 9999999999
+2019-03-07 09:03:591 INFO  LeadsCreationPage:183 - enter mobile number as: 9999999999
+2019-03-07 09:03:930 INFO  LeadsCreationPage:188 - enter fax as: Fax details
+2019-03-07 09:03:289 INFO  LeadsCreationPage:193 - enter email: info.test@gmail.com
+2019-03-07 09:03:186 INFO  LeadsCreationPage:198 - selecting leadStatus as: Attempted to Contact
+2019-03-07 09:03:770 INFO  LeadsCreationPage:213 - clicking on save button
+2019-03-07 09:03:211 INFO  LeadsPageStepDefinitions:142 - auto_firstName1
+2019-03-07 09:03:212 INFO  LeadsPageStepDefinitions:143 - auto_lastName1
+2019-03-07 09:03:213 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 09:03:326 INFO  WaitHelper:24 - element is visible..
+2019-03-07 09:03:381 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 09:03:421 INFO  WaitHelper:24 - element is visible..
+2019-03-07 09:03:465 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 09:03:531 INFO  WaitHelper:24 - element is visible..
+2019-03-07 09:03:833 INFO  ServiceHooks:42 - Create Leads is pass
+2019-03-07 09:03:482 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 09:03:614 INFO  WaitHelper:24 - element is visible..
+2019-03-07 09:03:211 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 09:03:775 INFO  WaitHelper:24 - element is visible..
+2019-03-07 09:03:270 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 09:03:348 INFO  WaitHelper:24 - element is visible..
+2019-03-07 09:03:447 INFO  LeadsCreationPage:55 - clicking on create leads button
+2019-03-07 09:03:987 INFO  LeadsCreationPage:100 - selecting first Name type as: Mr.
+2019-03-07 09:03:987 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 09:03:104 INFO  WaitHelper:24 - element is visible..
+2019-03-07 09:03:369 INFO  LeadsCreationPage:107 - entering first name as : auto_firstName2
+2019-03-07 09:03:744 INFO  LeadsCreationPage:112 - entering lastName as: auto_lastName2
+2019-03-07 09:03:107 INFO  LeadsCreationPage:117 - entering company Name as: companyName2
+2019-03-07 09:03:488 INFO  LeadsCreationPage:122 - entering title as: auto_company
+2019-03-07 09:03:850 INFO  LeadsCreationPage:131 - selecting lead source as: Employee
+2019-03-07 09:03:131 INFO  LeadsCreationPage:137 - selecting industry as  : Banking
+2019-03-07 09:03:392 INFO  LeadsCreationPage:143 - entering annualrevenue as: 2000
+2019-03-07 09:03:612 INFO  LeadsCreationPage:148 - entering noofemployees as : 2
+2019-03-07 09:03:817 INFO  LeadsCreationPage:153 - entering secondaryEmail as : info.test@gmail.com
+2019-03-07 09:03:316 INFO  LeadsCreationPage:158 - entering street as: 7535 Torrey Santa Fe Road
+2019-03-07 09:03:569 INFO  LeadsCreationPage:163 - entering postalCode as: 92129
+2019-03-07 09:03:758 INFO  LeadsCreationPage:168 - enter country as : US
+2019-03-07 09:03:916 INFO  LeadsCreationPage:173 - enter description as: auto_Description
+2019-03-07 09:03:117 INFO  LeadsCreationPage:178 - enter phone number as: 9999999999
+2019-03-07 09:03:395 INFO  LeadsCreationPage:183 - enter mobile number as: 9999999999
+2019-03-07 09:03:710 INFO  LeadsCreationPage:188 - enter fax as: Fax details
+2019-03-07 09:03:53 INFO  LeadsCreationPage:193 - enter email: info.test@gmail.com
+2019-03-07 09:03:956 INFO  LeadsCreationPage:198 - selecting leadStatus as: Attempted to Contact
+2019-03-07 09:03:469 INFO  LeadsCreationPage:213 - clicking on save button
+2019-03-07 09:03:728 INFO  LeadsPageStepDefinitions:142 - auto_firstName2
+2019-03-07 09:03:729 INFO  LeadsPageStepDefinitions:143 - auto_lastName2
+2019-03-07 09:03:730 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 09:03:802 INFO  WaitHelper:24 - element is visible..
+2019-03-07 09:03:857 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 09:03:916 INFO  WaitHelper:24 - element is visible..
+2019-03-07 09:03:962 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 09:03:27 INFO  WaitHelper:24 - element is visible..
+2019-03-07 09:03:316 INFO  ServiceHooks:42 - Create Leads is pass
+2019-03-07 09:03:914 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 09:03:25 INFO  WaitHelper:24 - element is visible..
+2019-03-07 09:03:627 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 09:03:181 INFO  WaitHelper:24 - element is visible..
+2019-03-07 09:03:57 INFO  ServiceHooks:42 - Search Leads is pass
+2019-03-07 09:03:737 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 09:03:898 INFO  WaitHelper:24 - element is visible..
+2019-03-07 09:03:431 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 09:03:685 INFO  WaitHelper:24 - element is visible..
+2019-03-07 09:03:830 INFO  LeadsCreationPage:213 - clicking on save button
+2019-03-07 10:03:199 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 10:03:293 INFO  WaitHelper:24 - element is visible..
+2019-03-07 10:03:357 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 10:03:427 INFO  WaitHelper:24 - element is visible..
+2019-03-07 10:03:491 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 10:03:558 INFO  WaitHelper:24 - element is visible..
+2019-03-07 10:03:625 INFO  ServiceHooks:42 - Edit Leads is pass
+2019-03-07 10:03:221 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 10:03:366 INFO  WaitHelper:24 - element is visible..
+2019-03-07 10:03:941 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 10:03:90 INFO  WaitHelper:24 - element is visible..
+2019-03-07 10:03:396 INFO  AlertHelper:20 - alert test: Are You Sure You want to Delete?
+2019-03-07 10:03:407 INFO  AlertHelper:31 - dismiss Alert is done...
+2019-03-07 10:03:409 INFO  ServiceHooks:42 - Delete Leads is pass
+2019-03-07 10:03:84 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 10:03:210 INFO  WaitHelper:24 - element is visible..
+2019-03-07 10:03:345 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 10:03:728 INFO  WaitHelper:24 - element is visible..
+2019-03-07 10:03:125 INFO  ServiceHooks:42 - Sign In with valid credential is pass
+2019-03-07 10:03:485 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 10:03:588 INFO  WaitHelper:24 - element is visible..
+2019-03-07 10:03:152 INFO  ServiceHooks:42 - Sign In with invalid credential is pass
+2019-03-07 10:03:513 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 10:03:619 INFO  WaitHelper:24 - element is visible..
+2019-03-07 10:03:187 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 10:03:569 INFO  WaitHelper:24 - element is visible..
+2019-03-07 10:03:214 INFO  ServiceHooks:42 - Sign In with valid credentials is pass
+2019-03-07 10:03:992 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 10:03:110 INFO  WaitHelper:24 - element is visible..
+2019-03-07 10:03:444 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 10:03:730 INFO  WaitHelper:24 - element is visible..
+2019-03-07 10:03:311 INFO  ServiceHooks:42 - Sign In with valid credentials is pass
+2019-03-07 10:03:832 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 10:03:946 INFO  WaitHelper:24 - element is visible..
+2019-03-07 10:03:04 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2019-03-07 10:03:217 INFO  WaitHelper:24 - element is visible..
+2019-03-07 10:03:459 INFO  ServiceHooks:42 - Sign In with valid credentials is pass

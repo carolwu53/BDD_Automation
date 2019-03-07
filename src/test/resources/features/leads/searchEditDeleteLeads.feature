@@ -1,5 +1,5 @@
 @Leads
-Feature: Leads Search
+Feature: Leads Search/Edit/Delete
   As a Test Engineer I want to test Leads Search functionality.
 
   Background: User should be on Home page
@@ -16,7 +16,8 @@ Feature: Leads Search
     And I click Search Now button
     Then I only see row with "LEA21" displayed
 
-  @sanity @regression
+  #@sanity @regression
+  #@test
   Scenario: Edit Leads
     When I click on leads link
     And I click on Edit link in the Leads table
@@ -28,6 +29,7 @@ Feature: Leads Search
     #Then I should see lead update success message
     And I should verify updated leads information
 
+  #@sanity @regression
   @test
   Scenario: Delete Leads
     When I click on leads link
