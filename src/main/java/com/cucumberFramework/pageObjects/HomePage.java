@@ -27,9 +27,6 @@ public class HomePage {
 	@FindBy(xpath = "//table[@class='hdrTabBg']/tbody/tr//td/a[text()='Organizations']")
 	WebElement organizationsLink;
 
-	@FindBy(xpath = "//table[@class='hdrTabBg']/tbody/tr//td/a[text()='Contacts']")
-	WebElement contactsLink;
-
 	@FindBy(xpath = "//table[@class='hdrTabBg']/tbody/tr//td/a[text()='Opportunities']")
 	WebElement opportunitiesLInk;
 
@@ -38,6 +35,13 @@ public class HomePage {
 	
 	@FindBy(xpath = "//img[@title='Create Lead...']")
 	public WebElement createLeadsButton;
+	
+	//for contacts page
+	@FindBy(xpath = "//table[@class='hdrTabBg']/tbody/tr//td/a[text()='Contacts']")
+	WebElement contactsLink;
+	
+	@FindBy(xpath="//a[@href='index.php?module=Contacts&action=EditView&return_action=DetailView&parenttab=Marketing']")
+	WebElement contactsPlusbtn;
 
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
@@ -57,23 +61,26 @@ public class HomePage {
 		return new LeadsCreationPage(driver);
 	}
 
-	public Organizations navigateToOrganizations() {
-		organizationsLink.click();
-		return new Organizations(driver);
-	}
-
-	public void navigateToContacts() {
-		contactsLink.click();
-	}
-
-	public void navigateToOpportunities() {
-		opportunitiesLInk.click();
-	}
-	
 	public WebElement getAdministrator() {
 		waitHelper.WaitForElement(administrator, Constants.getExplicitwait());
 		return administrator;
 	}
+	
+	public ContactsDetailsPage navigateToContacts() {
+		contactsLink.click();
+		return new ContactsDetailsPage(driver);
+	}
+	
+	public ContactsCreationPage clickOnContactsPlus() {
+		waitHelper.WaitForElement(contactsPlusbtn, Constants.getExplicitwait());
+		log.info("clicking on create contacts button");
+		contactsPlusbtn.click();
+		return new ContactsCreationPage(driver);
+	}
+	
+
+	
+	
 
 
 }
